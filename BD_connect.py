@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from PythonApplication1 import *
+from parsers import *
 from builtins import print
 import sqlite3
 

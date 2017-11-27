@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{b27fd494-58e6-448d-843a-c647291320a9}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>main.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,7 +23,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD_connect.py" />
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="parsers.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="weather_db.sqlite3" />

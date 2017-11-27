@@ -115,6 +115,6 @@ def pars_mailru(html):
 #    print(parse_yandex (get_html("https://yandex.ru/pogoda/krasnoyarsk")))
 
 
-pars_mailru(get_html('http://www.pogoda.mail.ru/prognoz/moskva/'))
+# pars_mailru(get_html('http://www.pogoda.mail.ru/prognoz/moskva/'))
 
 
